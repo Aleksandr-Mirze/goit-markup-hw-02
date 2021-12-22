@@ -1,0 +1,154 @@
+:root {
+  --var-main-text-color: #212121;
+  --var-logo-web-color: #2196f3;
+  --var-bcg-color: #2f303a;
+  --var-position-color: #757575;
+  --var-white-color: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header-nav-link {
+  list-style: none;
+  cursor: pointer;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--var-logo-web-color);
+}
+.current {
+  color: var(--var-logo-web-color);
+}
+
+.header-advantages {
+  list-style: none;
+}
+
+.no-decordation {
+  text-decoration: none;
+}
+
+.web-color {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--var-logo-web-color);
+}
+
+.studio-color {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--var-main-text-color);
+}
+.hero {
+  background-color: var(--var-bcg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--var-white-color);
+}
+.advantages-hidden {
+  visibility: hidden;
+}
+
+.header-advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--var-main-text-color);
+}
+
+.order-btn {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: var(--var-logo-web-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--var-main-text-color);
+}
+
+.header-advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--var-position-color);
+}
+
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--var-main-text-color);
+}
+
+.name-position {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--var-position-color);
+}
+
+.footer-color {
+  background-color: var(--var-bcg-color);
+}
+
+.studio-color-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--var-white-color);
+}
+
+.map {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--var-white-color);
+}
+
+.contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
