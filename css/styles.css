@@ -4,6 +4,8 @@
   --var-bcg-color: #2f303a;
   --var-position-color: #757575;
   --var-white-color: #ffffff;
+  --btn-bcg: #f5f4fa;
+  --btn-hover: #188ce8;
 }
 
 body {
@@ -12,12 +14,24 @@ body {
 
 .header-nav-link {
   list-style: none;
-  cursor: pointer;
+  font-weight: 500;
+}
+
+.link-color-header {
+  color: var(--var-main-text-color);
+}
+
+.link {
+  font-weight: 500;
 }
 
 .link:hover,
 .link:focus {
   color: var(--var-logo-web-color);
+}
+
+.link-color {
+  color: var(--var-position-color);
 }
 .current {
   color: var(--var-logo-web-color);
@@ -52,19 +66,26 @@ body {
 }
 .hero {
   background-color: var(--var-bcg-color);
+  text-align: center;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--var-white-color);
 }
-.advantages-hidden {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 .header-advantages-title {
@@ -81,9 +102,27 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   letter-spacing: 0.06em;
-  color: var(--var-logo-web-color);
+  color: var(--var-white-color);
+  background-color: var(--var-logo-web-color);
+}
+
+.order-btn-filter {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--var-bcg-color);
+  background-color: var(--btn-bcg);
+}
+.order-btn:focus,
+.order-btn:hover {
+  background-color: var(--var-logo-web-color);
+}
+
+.order-btn-filter:hover {
+  background-color: var(--var-logo-web-color);
 }
 
 .section-title {
@@ -106,6 +145,7 @@ body {
 .name {
   font-style: normal;
   font-weight: 500;
+  text-align: center;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -115,12 +155,32 @@ body {
 .name-position {
   font-style: normal;
   font-weight: 400;
+  text-align: center;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--var-position-color);
 }
 
+.item-name {
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--var-main-text-color);
+}
+
+.filter-name {
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--var-position-color);
+}
 .footer-color {
   background-color: var(--var-bcg-color);
 }
@@ -151,4 +211,15 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-nav-link {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.link-nav-footer:focus,
+.link-nav-footer:hover {
+  color: var(--var-white-color);
 }
