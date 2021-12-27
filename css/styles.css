@@ -182,14 +182,12 @@ body {
 
 .map {
   font-style: normal;
-  font-weight: 400;
   line-height: 1.71;
   color: var(--var-white-color);
 }
 
 .contacts {
   font-style: normal;
-  font-weight: 400;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
 }
