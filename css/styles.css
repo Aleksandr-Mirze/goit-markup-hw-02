@@ -12,8 +12,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: var(--var-main-text-color)
-  background-color: var(--var-white-color)
+  color: var(--var-main-text-color);
+  background-color: var(--var-white-color);
 }
 
 .header-nav-link {
@@ -162,7 +162,6 @@ body {
 }
 
 .filter-name {
-  font-weight: 400;
   text-align: left;
   font-size: 16px;
   line-height: 1.19;
@@ -201,5 +200,4 @@ body {
 .link-nav-footer:focus,
 .link-nav-footer:hover {
   color: var(--var-white-color);
-  
 }
